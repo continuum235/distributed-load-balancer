@@ -1,9 +1,10 @@
 package server
 
 import (
-	"dist_load_balancer/internal/handlers"
-	"dist_load_balancer/internal/middleware"
 	"net/http"
+
+	"github.com/continuum235/distributed-load-balancer/internal/handlers"
+	"github.com/continuum235/distributed-load-balancer/internal/middleware"
 )
 
 func SetupHelloRoutes() http.Handler {
